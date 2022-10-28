@@ -1,0 +1,115 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray900);
+}
+
+nav {
+  background-color: var(--gray900);
+  width: 100%;
+  height: 10.75rem;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.nav {
+  width: 100%;
+  height: 10.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-button-create-post-userinfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.div-button-create-post-userinfo > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.375rem;
+  width: 2.375rem;
+  border: solid 1px var(--brand200);
+  border-radius: 50%;
+}
+
+header {
+  background-color: var(--gray800);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+  top: 10.75rem;
+  z-index: 1;
+}
+
+.main-content {
+  margin-top: 14.75rem;
+  padding-top: 2rem;
+  width: 100%;
+  z-index: 0;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.25rem;
+}
+
+.div-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-card-header-user-createdAt {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.div-img-username {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.img-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.375rem;
+  width: 2.375rem;
+  border: solid 1px var(--brand200);
+  border-radius: 50%;
+}
+
+.p-access-post {
+  cursor: pointer;
+}
+
+.div-card-title {
+  width: 100%;
+}
+
+.div-card-content {
+  width: 100%;
+}

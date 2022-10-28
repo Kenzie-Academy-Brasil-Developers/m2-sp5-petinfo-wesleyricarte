@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/styles/texts.css" />
+    <link rel="stylesheet" href="./src/styles/toast.css" />
+    <link rel="stylesheet" href="./src/styles/inputs.css" />
+    <link rel="stylesheet" href="./src/styles/buttons.css" />
+    <link rel="stylesheet" href="./src/styles/login.css" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+
+    <script src="https://kit.fontawesome.com/a2a7b902de.js" crossorigin="anonymous"></script>
+
+    <script defer type="module" src="./src/scripts/login.js"></script>
+
+    <title>Petinfo | Login</title>
+  </head>
+  <body>
+    <!-- LEFT SIDE - SECTON PETINFO -->
+    <section class="section-petinfo">
+      <h1 class="font1-bold">Petinfo</h1>
+      <h1 class="font1-bold">
+        <span class="text-blue">Amor</span> e
+        <span class="text-blue">carinho</span> por meio do conhecimento
+      </h1>
+      <h5 class="font4-regular text-gray3">
+        Todas as informações para melhorar a vida do seu pet em um só lugar
+      </h5>
+      <div class="div-petinfo-box-images">
+        <div>
+          <div>
+            <img src="./src/assets/login/Rectangle 2.png" alt="imagem pet" />
+            <img src="./src/assets/login/Rectangle 3.png" alt="imagem pet" />
+          </div>
+          <img src="./src/assets/login/Rectangle 4.png" alt="imagem pet" />
+        </div>
+        <img src="./src/assets/login/Rectangle 5.png" alt="imagem pet" />
+      </div>
+    </section>
+
+    <!-- RIGHT SIDE - SECTON LOGIN -->
+    <section class="section-login">
+      <h2 class="font3-medium">Login</h2>
+      <form id="form-login">
+        <div class="div-email-label-input">
+          <label class="font4-medium" for="email">Email</label>
+          <input
+            class="inputs-default font4-regular input-email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-mail aqui"
+            required
+          />
+        </div>
+        <div class="div-password-label-input-wrongpass">
+          <label class="font4-medium" for="password">Senha</label>
+          <input
+            class="inputs-default font4-regular input-password"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua senha aqui"
+            required
+          />
+          <div class="div-span-wrong-password">
+            <span class="span-wrong-password font5-regular text-alert hidden"
+              >A senha está incorreta</span
+            >
+          </div>
+        </div>
+
+        <button
+          id="button-password"
+          class="buttons-default button-login-disabled font4-medium"
+          type="submit"
+          disabled
+        >
+          Acessar
+        </button>
+      </form>
+      <div class="div-new-account-info">
+        <h5 class="font5-medium">Ainda não possui conta?</h5>
+        <h5 class="font5-regular text-gray3">
+          Clicando no botão abaixo, você pode se cadastrar rapidamente
+        </h5>
+      </div>
+
+      <button class="buttons-default button-redirect-register font4-medium">
+        <a class="font4-medium" href="./src/pages/register.html">Cadastrar</a>
+      </button>
+    </section>
+  </body>
+</html>

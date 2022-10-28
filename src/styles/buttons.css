@@ -1,0 +1,143 @@
+.buttons-default {
+  height: 2.375rem;
+  padding: 0 1rem;
+  border-radius: var(--radius1);
+  cursor: pointer;
+}
+
+.button-login-disabled {
+  background-color: var(--brand200);
+  color: var(--gray900);
+}
+
+.button-login-enabled {
+  background-color: var(--brand100);
+  color: var(--gray900);
+}
+
+.button-redirect-register {
+  background-color: var(--gray900);
+  border: solid 1px var(--gray600);
+  color: var(--gray400);
+}
+
+.button-redirect-register:hover {
+  background-color: var(--gray800);
+  border: solid 1px var(--gray600);
+  color: var(--gray100);
+}
+.button-redirect-register + a {
+  background-color: var(--gray900);
+  border: solid 1px var(--gray600);
+  color: var(--gray400);
+}
+
+.button-redirect-register:hover + a {
+  background-color: var(--gray800);
+  border: solid 1px var(--gray600);
+  color: var(--gray100);
+}
+
+.button-redirect-login {
+  background-color: var(--gray900);
+  border: solid 1px var(--gray600);
+  color: var(--gray100);
+  padding: 0 8px;
+  height: 2rem;
+}
+.button-redirect-login:hover {
+  background-color: var(--gray800);
+  border: solid 1px var(--gray600);
+  color: var(--gray100);
+}
+
+.button-register-disabled {
+  background-color: var(--brand200);
+  color: var(--gray900);
+}
+
+.button-register-enabled {
+  background-color: var(--brand100);
+  color: var(--gray900);
+}
+
+.button-crate-post {
+  background-color: var(--brand200);
+  color: var(--gray900);
+  border: var(--brand200);
+}
+.button-crate-post:hover {
+  background-color: var(--brand100);
+  color: var(--gray900);
+  border: var(--brand100);
+}
+
+.button-close-modal {
+  font-family: var(--family-Nunito);
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--gray600);
+  color: var(--gray400);
+  border: solid 1px var(--gray600);
+  border-radius: 4px;
+}
+.button-close-modal:hover {
+  color: var(--gray300);
+}
+
+.button-cancel-modal {
+  background-color: var(--gray600);
+  color: var(--gray400);
+  border: var(--gray600);
+}
+.button-cancel-modal:hover {
+  background-color: var(--gray600);
+  color: var(--gray300);
+  border: var(--gray600);
+}
+
+.button-submit-create-post {
+  background-color: var(--brand200);
+  color: var(--gray900);
+  border: var(--brand200);
+}
+.button-submit-create-post:hover {
+  background-color: var(--brand100);
+  color: var(--gray900);
+  border: var(--brand100);
+}
+
+.button-update-post {
+  height: 2rem;
+  padding: 0 0.5rem;
+  background-color: var(--gray900);
+  border: solid 1px var(--gray600);
+  color: var(--gray100);
+}
+.button-update-post:hover {
+  background-color: var(--gray800);
+}
+
+.button-delete-post {
+  height: 2rem;
+  padding: 0 0.5rem;
+  background-color: var(--gray700);
+  border: solid 1px var(--gray700);
+  color: var(--gray400);
+}
+
+.button-delete-post:hover {
+  background-color: var(--gray600);
+  border: solid 1px var(--gray600);
+}
+
+.button-delete-post-modal {
+  background-color: var(--alert100);
+  color: var(--gray900);
+  border: var(--alert100);
+}
+.button-delete-post-modal:hover {
+  background-color: var(--alert200);
+  color: var(--gray900);
+  border: var(--alert200);
+}

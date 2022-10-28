@@ -1,0 +1,47 @@
+.toast-container {
+  font-family: var(--family-IBM);
+  position: fixed;
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 441.73px;
+  height: 125px;
+  padding: 21px 32px;
+  color: var(--gray200);
+  background-color: var(--gray900);
+  box-shadow: 0px 4px 30px -12px rgba(0, 0, 0, 0.1);
+  animation: toastIt 5000ms ease-in forwards;
+}
+
+@keyframes toastIt {
+  0% {
+    right: 30px;
+    bottom: -200px;
+  }
+  20% {
+    right: 30px;
+    bottom: 10px;
+  }
+  75% {
+    right: 30px;
+    bottom: 10px;
+  }
+  100% {
+    right: 30px;
+    bottom: -200px;
+  }
+}
+
+.toast-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 12px;
+}
+
+.toast-container > div > img {
+  width: 24px;
+}
